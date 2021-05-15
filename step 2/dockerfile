@@ -7,7 +7,7 @@ WORKDIR /usr/local/go/src/app
 RUN go mod init app
 
 # Copier le fichier source
-COPY src/main.go .
+COPY src .
 
 # Installation des dépendances
 RUN go get -d -v .
