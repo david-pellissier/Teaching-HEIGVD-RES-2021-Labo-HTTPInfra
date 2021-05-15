@@ -22,8 +22,14 @@ sudo docker build . -t res/s1
 ```
 
 
-Lancer un container:
+Lancer un container (temporaire):
 
 ```bash
-sudo docker run -p 8080:80 res/s1 
+sudo docker run -p 8080:80 --rm res/s1 
 ```
+
+## Test
+
+Une fois qu'on a lancé le container, on peut se rendre sur `http://localhost:8080`:
+
+![test](../figures/s1_test.png)
