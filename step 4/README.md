@@ -45,3 +45,16 @@ contenu de la première fortune qui aura été récupérée.
 
 Pour exécuter cette infrastructure, il faudra faire comme à l'étape 3, car on a
 testé ces opérations avec le reverse proxy.
+
+# Test de la configuration
+
+Nous pouvons voir le résultat après un premier chargement
+
+![](../figures/s4_test1.png)
+
+Et après un deuxième chargement
+
+![](../figures/s4_test2.png)
+
+Nous pouvons voir que les citations sont différentes à chaque chargement (si
+RNGesus est avec nous, évidemment).
