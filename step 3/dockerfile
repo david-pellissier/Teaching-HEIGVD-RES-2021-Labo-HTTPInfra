@@ -1,5 +1,6 @@
 #image de base
 FROM nginx
 
-# Remplacer la page d'accueil par défaut
-COPY src /usr/share/nginx/html
+# Remplacer la configuration de NGINX
+COPY nginx.conf /etc/nginx
+
