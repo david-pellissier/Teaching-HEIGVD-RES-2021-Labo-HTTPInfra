@@ -1,0 +1,21 @@
+FROM golang:latest
+
+# Se déplacer dans $GOROOT
+WORKDIR /usr/local/go/src/app
+
+# Initialiser un module "app"
+RUN go mod init app
+
+# Copier le fichier source
+COPY src .
+
+# Installation des dépendances
+RUN go get -d -v .
+
+# Compilation
+RUN go install -v .
+
+# TODO: modifier le port si besoin
+EXPOSE 80
+
+CMD [ "go", "run", "app" ]
