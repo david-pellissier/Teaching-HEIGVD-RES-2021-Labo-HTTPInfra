@@ -39,7 +39,7 @@ nous), voir le fichier `step1/src/js/fortune.js` pour ça.
 Et on a supprimé le champ e-mail et son bouton pour avoir un titre `h2` avec le
 contenu de la première fortune qui aura été récupérée.
 
-[^1]: merci, c'est très pratique en vrai
+[^1] : merci, c'est très pratique en vrai
 
 # Utilisation
 
