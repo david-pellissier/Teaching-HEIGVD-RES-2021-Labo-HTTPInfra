@@ -1,5 +1,7 @@
 #image de base
 FROM nginx
 
+EXPOSE 80
+
 # Remplacer la page d'accueil par défaut
 COPY src /usr/share/nginx/html

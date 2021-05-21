@@ -15,7 +15,7 @@ RUN go get -d -v .
 # Compilation
 RUN go install -v .
 
-# TODO: modifier le port si besoin
+# modifier le port si besoin
 EXPOSE 80
 
 CMD [ "go", "run", "app" ]
