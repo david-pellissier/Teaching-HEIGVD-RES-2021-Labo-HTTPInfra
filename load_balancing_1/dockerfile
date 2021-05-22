@@ -1,0 +1,7 @@
+#image de base
+FROM nginx
+
+EXPOSE 80
+
+# Remplacer la configuration de NGINX
+COPY nginx.conf /etc/nginx/

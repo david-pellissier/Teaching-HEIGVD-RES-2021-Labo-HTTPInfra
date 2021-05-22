@@ -1,4 +1,4 @@
-# Étape 4
+# Étape 5
 
 Depuis la version 1.19 de l'image Docker NGINX, un [outil de template](https://www.gnu.org/software/gettext/manual/html_node/envsubst-Invocation.html)
  est intégré à l'image et est exécuté automatiquement au lancement de chaque machine. Il permet justement d'utiliser des variables d'environnement
